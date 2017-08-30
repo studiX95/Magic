@@ -1,0 +1,173 @@
+@import url('reset.css');
+
+/*HEADER PAGE*/
+
+.page {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header--page {
+    height: 100px;
+    width: 100%;
+    background-color: #1b1b1b;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-position: bottom 40px left 10px;
+}
+
+.header--page h1 {
+    text-indent: -9999px;
+}
+
+/*NAVIGATION*/
+
+nav {
+    background-color: #2a3333;
+}
+
+.nav--main {
+    margin: 0 auto;
+}
+
+.nav--main li {
+    height: 35px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav--main li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 35px;
+    color: #fff;
+}
+
+
+/*ARTICLE IMAGE*/
+
+.article--main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.article--main figure {
+    position: relative;
+}
+
+.article--main img {
+    position: relative;
+    right: 10px;
+    top: 30px;    
+    width: 900px;
+    padding: 9px;
+    border: 1px solid #ddd;
+}
+
+.article--main figcaption {
+    position: absolute;
+    bottom: -17px;
+    box-sizing: border-box;
+    background-color: rgba(45,45,45,.7);
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+}
+
+/*ARTICLES MORE*/
+.articles {
+    position: relative;
+    top: 60px;
+    width: 860px;
+    margin: 0 auto;
+}
+
+.article {
+    position: relative;
+    float: left;
+    width: 255px;
+    height: 190px;
+}
+
+.article:nth-child(1):after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/icon_info.png);
+    background-repeat: no-repeat;
+}
+
+.article:nth-child(2):after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/icon_book.png);
+    background-repeat: no-repeat;
+}
+
+.article:nth-child(3):after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/icon_notes.png);
+    background-repeat: no-repeat;
+}
+
+.article:nth-child(2) {
+    margin: 0 45px;
+}
+
+.article-header {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.article-text {
+    text-align: left;
+}
+
+.article-more {
+    position: relative;
+    top: 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.article-more:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*FOOTER*/
+
+.footer--page {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    padding: 3px;
+    clear: both;
+    color: #fff;
+    background-color: #2a3333;
+}
+
+
+
+
+
+
